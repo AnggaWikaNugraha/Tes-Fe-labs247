@@ -1,3 +1,8 @@
+# Cara menjalankan dan instal
+- clone repo
+- command cmd npm install
+- npm start
+
 ## 1. Jelaskan perbedaan cookies dan local storage ? kapan menggunakan
 cookies / local storage ?
 - data cookie ini akan bersifat sementara sedangkan local storage datanya akan terus ada tidak akan pernah bisa terhapus.
