@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+1Jelaskan perbedaan cookies dan local storage ? kapan menggunakan
+cookies / local storage ?
+data cookie ini akan bersifat sementara sedangkan local storage datanya akan terus ada tidak akan pernah bisa terhapus.
+cookie biasanya digunakan untuk password dan username sedangkan local storage items,cart(kerangjang) dll
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Jelaskan bagaimana kamu mengamankan GUI dari serangan siber. Hal
+apa saja yang perlu diperhatikan ?
+yang perlu di perhatikan 
+1.Pastikan Anda selalu mengupdate software ke versi yang terbaru
+2.Gunakan Antivirus dan Firewall
+3.Gunakan Two-factor Authentication atau Multi-factor Authentication
+4.Backup data Anda secara teratur 
 
-## Available Scripts
+3. Apakah sebuah aplikasi front-end web dapat dijadikan aplikasi desktop ?
+jelaskan.
+Bisa, salah satunya dengan elektron, Electron menggunakan Nodejs sebagai backend dan Chromium sebagai front-end kemudian javascript(react.js) akan di compile kedalam aplikasi dekstop
 
-In the project directory, you can run:
+4. Apakah sebuah aplikasi front-end web dapat dijadikan aplikasi mobile ?
+jelaskan.
+Bisa, 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Sebutkan sebuah framework UI yang kamu sangat sukai, jelaskan mengapa kamu menyukainya.
+React.js 
+alasannya
+1.JSX
+JSX adalah extension syntax JavaScript yang memungkinkan Anda untuk memodifikasi Document Object Model (DOM) dengan khas HTML. 
+2.Virtual DOM
+Ketika developer mengupdate DOM dengan menggunakan JSX, React JS akan membuat Virtual DOM, yaitu salinan dari DOM asli yang ingin diupdate. Virtual DOM berguna untuk melihat bagian dari DOM asli yang berubah. Contohnya, ketika pengguna website mengklik tombol like atau comment, tentu yang perlu berubah hanya bagian like dan comment saja
+3. komunitas yang banyak
+4. mudah dipahami 
+5.Learn Once, Write Anywhere
+6.Component – Based
+7.State dan Lifecycle
