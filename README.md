@@ -26,8 +26,8 @@ jelaskan.
 JSX adalah extension syntax JavaScript yang memungkinkan Anda untuk memodifikasi Document Object Model (DOM) dengan khas HTML. 
 * 2.Virtual DOM
 Ketika developer mengupdate DOM dengan menggunakan JSX, React JS akan membuat Virtual DOM, yaitu salinan dari DOM asli yang ingin diupdate. Virtual DOM berguna untuk melihat bagian dari DOM asli yang berubah. Contohnya, ketika pengguna website mengklik tombol like atau comment, tentu yang perlu berubah hanya bagian like dan comment saja
-* 3. komunitas yang banyak
-* 4. mudah dipahami 
+* 3.komunitas yang banyak
+* 4.mudah dipahami 
 * 5.Learn Once, Write Anywhere
 * 6.Component – Based
 * 7.State dan Lifecycle
